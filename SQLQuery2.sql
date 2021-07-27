@@ -1,0 +1,1 @@
+﻿Insert Employee values (6, 'Olga', 'Manager', 1300)

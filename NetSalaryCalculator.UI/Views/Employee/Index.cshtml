@@ -1,0 +1,17 @@
+﻿@model IEnumerable<EmployeeViewModel>
+@{
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List of Employees</title>
+</head>
+<body>
+    <div>
+        @foreach (var employee in Model)
+        {
+            <div>Nr.: @employee.Id, name:@employee.Name, jobrole:@employee.GrossSalary</div>
+        }
+    </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSalaryCalculator.UI", "NetSalaryCalculator.UI\NetSalaryCalculator.UI.csproj", "{A5CC7533-0688-4BEE-93AD-3B54FCDF1CAC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{97F4E79D-B8DF-498A-8FC1-722623E1A3F4} = {97F4E79D-B8DF-498A-8FC1-722623E1A3F4}
+		{F3FB87E9-49DC-406B-AA00-26FA8790D2E1} = {F3FB87E9-49DC-406B-AA00-26FA8790D2E1}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSalaryCalculator.BLL", "NetSalaryCalculator.BLL\NetSalaryCalculator.BLL.csproj", "{F3FB87E9-49DC-406B-AA00-26FA8790D2E1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{97F4E79D-B8DF-498A-8FC1-722623E1A3F4} = {97F4E79D-B8DF-498A-8FC1-722623E1A3F4}
+		{AEB806A7-F836-4F08-8648-3776FDD52E4C} = {AEB806A7-F836-4F08-8648-3776FDD52E4C}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSalaryCalculator.Entity", "NetSalaryCalculator.Entity\NetSalaryCalculator.Entity.csproj", "{97F4E79D-B8DF-498A-8FC1-722623E1A3F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSalaryCalculator.DAL", "NetSalaryCalculator.DAL\NetSalaryCalculator.DAL.csproj", "{AEB806A7-F836-4F08-8648-3776FDD52E4C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{97F4E79D-B8DF-498A-8FC1-722623E1A3F4} = {97F4E79D-B8DF-498A-8FC1-722623E1A3F4}
+	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "EmployeeDataBase", "EmployeeDataBase\EmployeeDataBase.sqlproj", "{D095C75E-7305-4EBC-8107-C1342A0F9B0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		IIS|Any CPU = IIS|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5CC7533-0688-4BEE-93AD-3B54FCDF1CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5CC7533-0688-4BEE-93AD-3B54FCDF1CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5CC7533-0688-4BEE-93AD-3B54FCDF1CAC}.IIS|Any CPU.ActiveCfg = IIS|Any CPU
+		{A5CC7533-0688-4BEE-93AD-3B54FCDF1CAC}.IIS|Any CPU.Build.0 = IIS|Any CPU
+		{A5CC7533-0688-4BEE-93AD-3B54FCDF1CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5CC7533-0688-4BEE-93AD-3B54FCDF1CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3FB87E9-49DC-406B-AA00-26FA8790D2E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3FB87E9-49DC-406B-AA00-26FA8790D2E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3FB87E9-49DC-406B-AA00-26FA8790D2E1}.IIS|Any CPU.ActiveCfg = IIS|Any CPU
+		{F3FB87E9-49DC-406B-AA00-26FA8790D2E1}.IIS|Any CPU.Build.0 = IIS|Any CPU
+		{F3FB87E9-49DC-406B-AA00-26FA8790D2E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3FB87E9-49DC-406B-AA00-26FA8790D2E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F4E79D-B8DF-498A-8FC1-722623E1A3F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F4E79D-B8DF-498A-8FC1-722623E1A3F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F4E79D-B8DF-498A-8FC1-722623E1A3F4}.IIS|Any CPU.ActiveCfg = IIS|Any CPU
+		{97F4E79D-B8DF-498A-8FC1-722623E1A3F4}.IIS|Any CPU.Build.0 = IIS|Any CPU
+		{97F4E79D-B8DF-498A-8FC1-722623E1A3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F4E79D-B8DF-498A-8FC1-722623E1A3F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB806A7-F836-4F08-8648-3776FDD52E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB806A7-F836-4F08-8648-3776FDD52E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB806A7-F836-4F08-8648-3776FDD52E4C}.IIS|Any CPU.ActiveCfg = IIS|Any CPU
+		{AEB806A7-F836-4F08-8648-3776FDD52E4C}.IIS|Any CPU.Build.0 = IIS|Any CPU
+		{AEB806A7-F836-4F08-8648-3776FDD52E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB806A7-F836-4F08-8648-3776FDD52E4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D095C75E-7305-4EBC-8107-C1342A0F9B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D095C75E-7305-4EBC-8107-C1342A0F9B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D095C75E-7305-4EBC-8107-C1342A0F9B0F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D095C75E-7305-4EBC-8107-C1342A0F9B0F}.IIS|Any CPU.ActiveCfg = IIS|Any CPU
+		{D095C75E-7305-4EBC-8107-C1342A0F9B0F}.IIS|Any CPU.Build.0 = IIS|Any CPU
+		{D095C75E-7305-4EBC-8107-C1342A0F9B0F}.IIS|Any CPU.Deploy.0 = IIS|Any CPU
+		{D095C75E-7305-4EBC-8107-C1342A0F9B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D095C75E-7305-4EBC-8107-C1342A0F9B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D095C75E-7305-4EBC-8107-C1342A0F9B0F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9798D6FB-EAD8-474D-8134-1DF7CE7A0FFD}
+	EndGlobalSection
+EndGlobal

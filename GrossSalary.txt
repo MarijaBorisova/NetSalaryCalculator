@@ -1,0 +1,7 @@
+Tom Grey;Manager;2000
+Anna Red;Employee;1200
+Tom Yellow;Employee;900
+Kate Pink;Freelancer;25
+Alex Blue;Freelancer;30
+
+

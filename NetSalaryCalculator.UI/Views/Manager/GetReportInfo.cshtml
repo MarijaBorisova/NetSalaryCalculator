@@ -1,0 +1,15 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Report Info section</h1>
+
+
+@using (Html.BeginForm("GetReportInfo", "Manager", FormMethod.Post)) // "1" action name, "2" controller
+{
+    <input type="text" name="reportName" />
+    <br />
+    <input type="submit" value="send to the controller" />
+};

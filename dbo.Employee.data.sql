@@ -1,0 +1,5 @@
+﻿INSERT INTO [dbo].[Employees] ([Id], [Name], [JobRole], [GrossSalary]) VALUES (1, N'Anna Green', N'Engineer  ', CAST(1800.0000 AS Money))
+INSERT INTO [dbo].[Employees] ([Id], [Name], [JobRole], [GrossSalary]) VALUES (2, N'Alex Grey ', N'HR        ', CAST(1400.0000 AS Money))
+INSERT INTO [dbo].[Employees] ([Id], [Name], [JobRole], [GrossSalary]) VALUES (3, N'Ella White', N'IT        ', CAST(2000.0000 AS Money))
+INSERT INTO [dbo].[Employees] ([Id], [Name], [JobRole], [GrossSalary]) VALUES (4, N'Olga Blue ', N'Secretary ', CAST(1000.0000 AS Money))
+INSERT INTO [dbo].[Employees] ([Id], [Name], [JobRole], [GrossSalary]) VALUES (5, N'Tom Black ', N'Manager   ', CAST(1950.0000 AS Money))

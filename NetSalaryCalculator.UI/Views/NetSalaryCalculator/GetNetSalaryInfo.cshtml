@@ -1,0 +1,18 @@
+﻿@model ManagerViewModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Net Salary Info section</h1>
+
+
+@using (Html.BeginForm("GetNetSalaryInfo", "NetSalaryCalculator", FormMethod.Post))
+{
+    <input type="text" name="managerName" /><br />
+    <input type="submit" value="send to the controller" /><br />
+}
+
+<label>Add new Manager: @Model.Name</label><br />
+<label>Add a new Manager: @Model.newUser</label>

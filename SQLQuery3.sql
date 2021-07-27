@@ -1,0 +1,1 @@
+﻿Delete Employee Where Id = 3

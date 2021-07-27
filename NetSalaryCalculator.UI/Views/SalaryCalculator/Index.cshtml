@@ -1,0 +1,56 @@
+﻿@model SalaryCalculatorViewModel
+@{
+    ViewData["Title"] = "Employee Net Salary Calculator";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    This salary calculator helps you to get a net salary from gross salary.
+    Default value: tax book is submit.
+</p>
+
+@{
+    ViewBag.Title = "Net Salary Calculator Page";
+}
+
+<h2>@ViewBag.Message</h2>
+
+<p>
+Please enter your gross salary.
+</p>
+
+
+<body>
+    <div class="row">
+        @using (Html.BeginForm("Index", "SalaryCalculator", FormMethod.Post))
+        {
+
+            <div class="form-group">
+                <label for="grossSalary">Gross salary, EUR</label>
+                <input type="text" class="form-control" id="grossSalary" name="grossSalary" value="@Model.grossSalary" />
+            </div>
+            <div class="form-group">
+                <label for="socialTax">Social tax, EUR</label>
+                <input type="text" class="form-control" id="socialTax" name="socialTax" value="@Model.socialTax" />
+            </div>
+            <div class="form-group">
+                <label for="incomeTax">Personal income tax, EUR</label>
+                <input type="text" class="form-control" id="incomeTax" name="incomeTax" value="@Model.incomeTax" />
+            </div>
+            <div class="form-group">
+                <label for="netSalary">Net salary, EUR</label>
+                <input type="text" class="form-control" id="netSalary" name="netSalary" value="@Model.netSalary" />
+            </div>
+
+            <button type="submit" class="btn btn-info" id="add" value="add">Ok</button>
+        }
+
+
+
+    </div>
+</body>
+
+
+
+
