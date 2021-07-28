@@ -16,19 +16,19 @@ namespace NetSalaryCalculator.UI.Controllers
         {
             ManagerViewModel managerModel = new ManagerViewModel()
             {
-                Name = "Bob Smith", // initilize a new object, a new model
+                /*Name = "Bob Smith", // initilize a new object, a new model
                 JobRole = "Manager",
                 GrossSalary = 2000,
                 WorkingHours = 8,
-                Date = new DateTime(2021, 6, 23)
+                Date = new DateTime(2021, 6, 23)*/
             };
             ManagerDto managerDto = new ManagerDto()
             {
-                Name = "Tom Black",
+               /* Name = "Tom Black",
                 JobRole = "Manager",
                 GrossSalary = 1400,
                 WorkingHours = 8,
-                //Date = 01/06/2021
+                //Date = 01/06/2021*/
             };
 
             NetSalaryCalculatorAction managerAction = new NetSalaryCalculatorAction();

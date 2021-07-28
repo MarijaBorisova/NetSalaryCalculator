@@ -9,19 +9,36 @@
 
 @using (Html.BeginForm("GetNetSalaryInfo", "NetSalaryCalculator", FormMethod.Post))
 {
-<label>Get the report on employees' salary: </label>
-                <input type="text" name="Name" />
-                                <input type="submit" value="insert name" />
-                                                <br />
-                                                                <label>Add the new employee: </label>
-                                                                                <input type="text" name="Name" />
-                                                                                                <input type="submit" value="submit" />
-                                                                                                                <br />
-                                                                                                                <label>Edit employee's report: </label>
-                                                                                                                                                <input type="text" name="Name" />
-                                                                                                                                                                <input type="submit" value="insert name" />
-                                                                                                                                                                                <br />
-}
+<div class="form-group">
+    <label for="GetReportInfo">Get report:</label>
+    <br>
+    <input type="text" name="Name" />
+    <br/>
+    <br>
+    <button type="submit" class="btn btn-info" id="add" value="add">Submit</button>
+    <br/>
+</div>
+<div class="form-group">
+    <label for="AddNewEmployee">Add the new employee</label>
+    <br>
+    <input type="text" name="Name" />
+    <br />
+    <br>
+    <button type="submit" class="btn btn-info" id="add" value="add">Add</button>
+    <br />
+</div>
+<div class="form-group">
+    <label for="EditEmpployeeInfo">Edit employee's info</label>
+    <br>
+    <input type="text" name="Name" />
+    <br />
+    <br>
+    <button type="submit" class="btn btn-info" id="add" value="add">Edit</button>
+    <br />
+</div>
+        
+
+ }
 
 
 
